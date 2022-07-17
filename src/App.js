@@ -1,5 +1,6 @@
 import "./App.css";
-import DocTitleOne from "./hooks/CustomHook/DicTitleOne";
+// import DocTitleOne from "./hooks/CustomHook/DicTitleOne";
+import ComponentsOutput from "./styled_component/ComponentsOutput";
 // import ClassTimer from "./hooks/UseRef/ClassTimer";
 // import FunctionTimer from "./hooks/UseRef/FunctionTimer";
 // import FocusedInput from "./hooks/UseRef/FocusedInput";
@@ -37,15 +38,16 @@ function App() {
       {/* <MainComponent/> */}
       {/* <CounterOne/> */}
       {/* <CounterTwo/> */}
-      {/* <MultipleReducer /> */}
-      {/* <ContextCounter/> */}
+      {/* <MultipleReducer / */}
+      {/* <ContextCounter/ */}
       {/* <DataFetching1/> */}
       {/* <DataFecthing2/> */}
       {/* <ParentComponent/> */}
-      {/* <FocusedInput /> */}
+      {/* <FocusedInput / */}
       {/* <ClassTimer/> */}
       {/* <FunctionTimer/> */}
-      <DocTitleOne/>
+      {/* <DocTitleOne/> */}
+      <ComponentsOutput />
     </div>
   );
 }
